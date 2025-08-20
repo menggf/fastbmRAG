@@ -1,0 +1,11 @@
+textract
+wx
+datatime
+qdrant_client
+scipy
+pandas>=2.0.0
+ollama
+json
+setuptools
+argparse
+networkx

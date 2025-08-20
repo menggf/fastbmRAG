@@ -1,0 +1,17 @@
+name: fastbmrag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - python-devtools
+  - textract
+  - pandas>=2.0.0
+  - scipy
+  - pip:
+    - wxPython
+    - ollama
+    - qdrant_client
+    - numpy
+    - networkx
