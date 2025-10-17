@@ -30,7 +30,7 @@ The 'update' mode is used to create an new collection or add new documents to an
 It should have at least three columns: 'abstract', 'main_text' and 'paper_id'. If there are more columns, they are used for additional information. Each element of the 'main_text' column should be either a list of strings in the format '[str1, str2]' or a string separated by '$\setminus$n'. 'paper_id' is a unique ID for each paper. If a paper ID exists in the collection, the corresponding paper will be ignored. To update the collection, use the following command:
 
 ```
-python main.py --job update --document input.csv 
+python main.py --job update --document examples/demo1.csv
 			   --collection_name collection_name 
 			   --working_dir directory_path
 ```
@@ -38,7 +38,7 @@ python main.py --job update --document input.csv
 Here, ‘collection_name’ and ‘working_dir’ specify the collection name and directory to store collection.
 
 ### Query the collection 
-It is used to query the collection.
+It is used to query the collection with questions.
 
 ```
 python main.py --job query --collection_name collection_name 
