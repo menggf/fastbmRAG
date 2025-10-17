@@ -2,7 +2,7 @@
 FastbmRAG, an fast lightweight graph-based RAG optimized for biomedical literature. 
 
 Utilizing well organized structure of biomedical papers, fastbmRAG divides the construction of knowledge graph into two stages:
-* Build a draft knowledge graph using only abstracts
+* Build a draft knowledge graph using only abstracts of scientific papers
 * Refine the nodes and edges of knowledge graph using main texts 
 
 Our evaluations demonstrate that fastbmRAG is over 10x faster than existing graph-RAG tools and achieve superior coverage and accuracy to existing knowledge. 
