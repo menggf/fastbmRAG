@@ -31,18 +31,18 @@ It should have at least three columns: 'abstract', 'main_text' and 'paper_id'. I
 
 ```
 python main.py --job update --document examples/demo1.csv
-			   --collection_name collection_name 
-			   --working_dir directory_path
+			   --collection_name collection\_name 
+			   --working_dir directory\_path
 ```
 
-Here, ‘collection_name’ and ‘working_dir’ specify the collection name and directory to store collection.
+Here, ‘collection\_name’ and ‘working\_dir’ specify the collection name and directory to store collection.
 
 ### Query the collection 
 It is used to query the collection with questions.
 
 ```
-python main.py --job query --collection_name collection_name 
-	           --working_dir directory_path 
+python main.py --job query --collection\_name collection\_name 
+	           --working\_dir directory\_path 
 	           --question 'your question'
 ```
 
