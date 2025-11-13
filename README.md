@@ -14,7 +14,13 @@ Overall, fastbmRAG provides a fast solution for quickly understanding, summarizi
 fastbmRAG is implemented in Python 3.11 or higher. 
 
 Current version only support ollama LLM models. Please install ollama by visiting:
+
 https://ollama.com/download
+
+The ollama models should be installed before usage with a command like:
+```
+ollama run gemma3
+```
 
 Build a conda envirenment for neccessary dependences:
 
@@ -42,9 +48,11 @@ To update the collection, use the following command:
 python main.py --job update --document examples/demo1.csv
 			   --collection_name collection_name 
 			   --working_dir directory_path
+               --llm_update_model_name llm_model_name
+               --embed_model_name embedding_model_name
 ```
 
-Here, ‘collection_name’ and ‘working_dir’ specify the collection name and directory to store collection.
+Here, ‘collection_name’ and ‘working_dir’ specify the collection name and directory to store collection. llm_model_name and embedding_model_name are the ollama model names. 
 
 ### Query the collection 
 It is used to query the collection with questions.
@@ -53,6 +61,9 @@ It is used to query the collection with questions.
 python main.py --job query --collection_name collection_name 
 	           --working_dir directory_path 
 	           --question 'your question'
+               --llm_query_model_name llm_model_name
+               --embed_model_name embedding_model_name
+
 ```
 
 
