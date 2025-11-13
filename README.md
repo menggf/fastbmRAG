@@ -13,6 +13,9 @@ Overall, fastbmRAG provides a fast solution for quickly understanding, summarizi
 
 fastbmRAG is implemented in Python 3.11 or higher. 
 
+Current version only support ollama LLM models. Please install ollama by visiting:
+https://ollama.com/download
+
 Build a conda envirenment for neccessary dependences:
 
 ```
