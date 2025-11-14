@@ -36,7 +36,7 @@ conda activate fastbmrag
 
 There are two modes: 'update' and 'query', which are used to build local collection and query local collection, respectively.
 
-### Build local collection of vector database
+### Build local collection
 
 The 'update' mode is used to create an new collection or add new documents to an existing collection of vector database. The documents should be a text file in CSV format. 
 
