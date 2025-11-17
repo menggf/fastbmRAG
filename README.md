@@ -66,4 +66,8 @@ python main.py --job query --collection_name collection_name
 
 ```
 
+### Related publication
+
+Guofeng Meng et.al., fastbmRAG: A Fast Graph-Based RAG Framework for Efficient Processing of Large-Scale Biomedical Literature. ArXiv, 2025, DOI:10.48550/arXiv.2511.10014
+
 
