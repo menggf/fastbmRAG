@@ -9,7 +9,7 @@ Our evaluations demonstrate that fastbmRAG is over 10x faster than existing grap
 
 Overall, fastbmRAG provides a fast solution for quickly understanding, summarizing, and answering questions about biomedical literature on a large scale.
 
-## Build a conda envirenment
+## Install and build conda envirenment
 
 fastbmRAG is implemented in Python 3.11 or higher. 
 
