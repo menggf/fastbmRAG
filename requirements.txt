@@ -1,11 +1,10 @@
 textract
 wx
-datatime
+datetime
 qdrant_client
 scipy
 pandas>=2.0.0
 ollama
-json
+vllm
 setuptools
-argparse
 networkx
