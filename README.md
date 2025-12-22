@@ -28,7 +28,7 @@ vllm will be automatically installed via pip. You can use any compatible model w
 **Backend selection:**
 Use the `--backend` parameter to choose between 'ollama' and 'vllm':
 - `--backend ollama` (default)
-- `--backend vllm`
+- `--backend vllm` (not support embedding now. It still needs ollama embedding model)
 
 Build a conda environment for necessary dependencies:
 
